@@ -1,0 +1,99 @@
+.app-header{
+    background: transparent linear-gradient(180deg, #1D1D2700 0%, #1D1D27 100%) 0% 0% no-repeat padding-box;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.video-container{
+    background-image: url(/assets/images/header-img.png);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: top;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.icon-row{
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 18px;
+}
+.right-icons{
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-start;
+}
+.right-icons img{
+    width: 18px;
+    height: 18px;
+    margin-left: 7px;
+}
+.time{
+    color: #fff;
+    font-size: 14px;
+}
+.sec-row-icons{
+    width: 18px;
+    height: 18px;
+}
+.player-icon{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1000;
+}
+.player-icon img{
+    width: 80px;
+    height: 80px;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #fff;
+    text-align: right;
+    direction: rtl;
+}
+.header-content h1{
+    color: #fff!important;
+    font-size: 1.9rem;
+}
+.issue{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.issue img{
+    margin-right: 20px;
+    width: 100px;
+    height: 20px;
+}
+.seri-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+.seri-btn a{
+    border: 1px solid #fff;
+    background: transparent;
+    padding: 7px 20px;
+    border-radius: 8px;
+    color: #fff;
+    opacity: .9;
+    font-size: .9rem;
+}
