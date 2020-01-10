@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* @font-face{
+    src: url(/assets/fonts/IRANSansWeb_Light.woff);
+    font-family: 'iransans';
+}
+@font-face{
+    src: url(/assets/fonts/IRANSansWeb_Bold.woff);
+    font-family: 'iransansbold';
+} */
+/* @font-face{
+    src: url(/assets/fonts/RobotoSlab-Regular.ttf);
+    font-family: 'RobotoSlab';
+}
+body{
+    font-family: 'RobotoSlab',sans-serif!important;
+    background-color: lightgrey!important;
+}
+ul li{
+    list-style-type: none;
+}
+input{
+    color: rgb(33, 33, 33);
+    font-size: 12px;
+}
+.ant-btn-primary{
+    margin: 0 15px;
+}
+.todo-content{
+    background-color: lightgrey;
+    padding: 25px;
+    margin-top: 20px;
+}
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.chronometr{
+    width: 300px;
+    height: 300px;
+    background-color: lightskyblue;
+    border: 2px solid black;
+    margin-top: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.chronometr>div{
+    width: 90%;
+    height: 90%;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn-span1{
+    position: absolute;
+    top: 25px;
+    right: 5px;
+    padding: 20px;
+    cursor: pointer;
+}
+.btn-span2{
+    position: absolute;
+    top: 25px;
+    left: 5px;
+    padding: 20px;
+    cursor: pointer;
+}
+.start-btn{
+    position: absolute;
+    top: 25px;
+    right: 5px;
+    z-index: -1;
+    transform: rotate(40deg);
+}
+.reset-btn{
+    position: absolute;
+    top: 25px;
+    left: 5px;
+    z-index: -1;
+    transform: rotate(-40deg);
+}
+.btn-transform{
+    transform: translateY(5px) rotate(40deg);
+    background-color: rgb(235, 53, 107)!important;
+}
+.ch-image{
+    position: absolute;
+    top: -32%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+}
+.ch-numbers{
+    width: 80%;
+    height: 70px;
+    border: 1px solid rgb(63, 62, 62);
+    background-color: blanchedalmond;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    -moz-box-shadow:    inset 0 0 5px #000000;
+   -webkit-box-shadow: inset 0 0 5px #000000;
+   box-shadow:         inset 0 0 5px #000000;
+}
+.ch-numbers span{
+    font-size: 1.7rem;
+    margin-left: 5px;
+} */

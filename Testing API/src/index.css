@@ -1,0 +1,32 @@
+@font-face {
+  font-family: Shabnam;
+  src: url("https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam.eot");
+  src: url("https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam.woff2")
+      format("woff2"),
+    url("https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam.woff")
+      format("woff"),
+    url("https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam.ttf")
+      format("truetype");
+  font-weight: normal;
+}
+
+body {
+  direction: rtl;
+  font-family: Shabnam;
+  background-color: aquamarine
+  
+}
+
+#components-layout-demo-responsive .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+Input-style{
+  text-align: center;
+width: 7em;
+margin:6em
+}

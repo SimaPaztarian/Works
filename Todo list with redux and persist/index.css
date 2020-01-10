@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* @font-face{
+    src: url(/assets/fonts/IRANSansWeb_Light.woff);
+    font-family: 'iransans';
+}
+@font-face{
+    src: url(/assets/fonts/IRANSansWeb_Bold.woff);
+    font-family: 'iransansbold';
+} */
+@font-face{
+    src: url(/assets/fonts/RobotoSlab-Regular.ttf);
+    font-family: 'RobotoSlab';
+}
+body{
+    font-family: 'RobotoSlab',sans-serif!important;
+    background-color: lightgreen!important;
+}
+ul li{
+    list-style-type: none;
+}
+input{
+    color: rgb(33, 33, 33);
+    font-size: 12px;
+}
+.ant-btn-primary{
+    background-color: rgb(125, 60, 179) !important;
+    border-color: rgb(125, 60, 179) !important;
+    margin-left: 25px;
+    padding-bottom: 5px;
+}
+.todo-content{
+    background-color: lightgrey;
+    padding: 25px;
+    margin-top: 20px;
+}
