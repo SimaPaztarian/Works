@@ -2,7 +2,6 @@
   max-width: $grid-width;
   // background-color: $color-gray-light;
   margin: 0 auto; //for centralize
-
   &:not(:last-child) {
     margin-bottom: $gutter-vertical;
   }
