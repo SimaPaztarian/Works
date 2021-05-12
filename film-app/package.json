@@ -15,7 +15,7 @@
     "react-persian-datepicker": "^3.0.2",
     "react-responsive-carousel": "^3.1.51",
     "react-scripts": "3.0.1",
-    "swiper": "^5.2.0"
+    "swiper": "^6.5.1"
   },
   "devDependencies": {
     "enzyme": "^3.10.0",
